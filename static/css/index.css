@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+html{
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: linear-gradient(to right, rgb(51, 26, 122), rgb(29, 102, 92));
+    font-family: 'Poppins', sans-serif;
+}
+*,*::after,*::before{
+    box-sizing: inherit;
+    margin: inherit;
+    padding: inherit;
+}
+.nav-link{
+    color: #0dfdaf;
+    font-size: 18px;
+    font-family: 'Orbitron', sans-serif;;
+}
+.navbar-brand{
+    color: #0dfdaf;
+    font-size: 20px;
+    font-family: 'Orbitron', sans-serif;;
+}
+.nav-link a:hover{
+    color: black;
+}
+.header-brackground{
+    position: static;
+    display: block;
+    overflow: hidden;
+    top: 0;
+    height: auto;
+    min-height: 750px;
+    margin-bottom: 70px;
+    padding-bottom: 70px;
+    flex-direction: column;
+}
+.row{
+    display: flex;
+    justify-content: center;
+}
+.card{
+    box-shadow: 0 0 30px rgba(0,0,0,0.5);
+    overflow: hidden;
+    border-radius: 15px;
+    background-color: rgba(73, 95, 31, 0.59);
+    color: bisque;
+}
+.card:hover{
+    transform: scale(1.05);
+ box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
