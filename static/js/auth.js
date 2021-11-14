@@ -15,3 +15,7 @@ signupLink.onclick = (()=>{
 signupBtn.click();
 return false;
 });
+
+function display(){
+    alert("Thank You for Signing. Your request is pending")
+}
